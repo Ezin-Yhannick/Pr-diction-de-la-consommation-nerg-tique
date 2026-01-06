@@ -18,7 +18,7 @@ Ce projet implémente une solution de bout en bout pour la prévision de séries
 
 1. **Cloner le dépôt** :
    ```bash
-   git clone 
+   git clone https://github.com/Ezin-Yhannick/Pr-diction-de-la-consommation-nerg-tique
 2. Installer les dépendances : pip install pandas numpy xgboost lightgbm scikit-learn matplotlib tkinter
 3. Méthodologie
    1. Préparation des donnéesLe script effectue un nettoyage "industriel" :Resampling ('H') : Garantit une continuité chronologique (indispensable pour les calculs de Lags).Interpolation Linéaire : Comble intelligemment les données manquantes.Dédoublonnage : Sécurise l'index temporel.
@@ -29,7 +29,6 @@ Ce projet implémente une solution de bout en bout pour la prévision de séries
    Exécutez le script :
      ```bash
       python consommation.py
-     ```bash
    Sélectionnez vos fichiers CSV via l'interface.
    Observez les métriques de performance s'afficher dans la console.
    Visualisez les courbes de prédiction selon l'échelle souhaitée.Retrouvez vos résultats détaillés dans predictions_consommations.csv.
